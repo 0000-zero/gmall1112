@@ -1,6 +1,8 @@
 package com.gmall.beans;
 
 
+import lombok.Data;
+
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -11,6 +13,7 @@ import java.io.Serializable;
  * @param
  * @return
  */
+@Data
 public class PmsBaseCatalog3 implements Serializable {
     @Id
     @Column
